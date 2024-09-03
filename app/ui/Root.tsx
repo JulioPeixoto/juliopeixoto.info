@@ -1,0 +1,25 @@
+import React from 'react';
+
+import styles from '@/app/styles/ui/Root.module.scss';
+import {ThemeProvider} from './Theme';
+
+type Props = {
+  isMobile: boolean;
+  children: React.ReactNode;
+};
+
+function Root(props: Props) {
+  const {isMobile, children} = props;
+
+  return (
+    <ThemeProvider>
+        <div className={styles.container}>
+          <main className={styles.main}>
+            <div className={styles.content}>{children}</div>
+          </main>
+        </div>
+    </ThemeProvider>
+  );
+}
+
+export default Root;

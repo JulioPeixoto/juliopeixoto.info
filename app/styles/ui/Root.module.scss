@@ -1,0 +1,61 @@
+@import "../variables";
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  min-width: 25.625rem;
+  background: var(--background-color);
+}
+
+.main {
+  max-width: 50rem;
+
+  display: flex;
+  gap: 3rem;
+
+  margin: auto;
+  padding: 2rem 0rem;
+
+  position: relative;
+  z-index: 2;
+
+  background: transparent;
+
+  @media (max-width: $break-width) {
+    flex-direction: column;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding: 4rem 2rem;
+  }
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  min-width: 30rem;
+
+  color: var(--text-color);
+
+  > * {
+    width: 100%;
+  }
+
+  > p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  > h1 {
+    font-size: 24px;
+  }
+
+  @media (max-width: $break-width) {
+    min-width: revert;
+  }
+}

@@ -1,0 +1,11 @@
+.container {
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+    background: transparent;
+    color: var(--text-color);
+
+    &:hover {
+        filter: opacity(0.8);
+    }
+}

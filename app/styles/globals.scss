@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.theme--dark {
+  --background-color: #1a1c1e;
+  --text-color: #fefefe;
+  --text-color-dimmed: #dadada;
+  --light-mode-border: transparent;
+}
+
+.theme--light {
+  --background-color: rgb(17 16 16/var(--tw-bg-opacity));
+  --text-color: #1a1a1a;
+  --text-color-dimmed: #1c1c1c;
+  --light-mode-border: #1c1c1c;
+}
+
+::-webkit-scrollbar {
+  width: 0 !important
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// *, input, button, select, textarea, optgroup, option {
+//   font-family: 'JetBrains Mono', monospace;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+
+html,
+body,
+#root,
+#__next {
+  height: 100%;
+  width: 100%;
+  min-width: 390px;
+  font-size: 16px;
+  background: var(--background-color);
+}
+
+*:focus {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 24px;
+}
