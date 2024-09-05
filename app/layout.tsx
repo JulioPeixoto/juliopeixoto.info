@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
+
 import "@/app/styles/globals.scss";
 import Navbar from "./ui/Navbar";
 import Root from "./ui/Root";
-
-import { GeistSans } from 'geist/font/sans';
-import { GeistMono } from 'geist/font/mono';
+import Footer from "./ui/Footer";
 
 export const metadata: Metadata = {
-  title: "juliopeixoto.io",
+  title: "Julio Peixoto",
   description: "Julio Peixoto personal website",
 };
 
@@ -25,6 +24,7 @@ export default function RootLayout({
           <Navbar />
           <main className="">
             {children}
+            <Footer />
           </main>
         </Root>
       </body>
