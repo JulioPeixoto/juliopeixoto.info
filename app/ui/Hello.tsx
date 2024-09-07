@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hello() {
   return (
-    <section className="pb-14 border-b border-slate-300 mb-14">
+    <section className="pb-3 mb-3">
       <h1 className="font-semibold text-4xl mb-4">
         Ciao, i'm Julio Peixoto.
         <span className="block text-slate-500 font-normal text-2xl">
@@ -15,15 +15,6 @@ export default function Hello() {
         that, I built personal and business banking products for millions of
         customers at Monzo.
       </p>
-      <a
-        className="group transition-colors inline-block mt-8 font-mono text-xs font-semibold rounded-full px-8 py-3"
-        href="/info"
-      >
-        More Information{" "}
-        <span className="inline-block group-hover:translate-x-2 transition-transform">
-          →
-        </span>
-      </a>
     </section>
   );
 }
