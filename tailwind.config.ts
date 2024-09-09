@@ -1,7 +1,8 @@
 import type { Config } from "tailwindcss";
 const withMT = require("@material-tailwind/react/utils/withMT");
 
-// Usando withMT para combinar o Material Tailwind com Tailwind
+const colors = require('tailwindcss/colors')
+
 const config: Config = withMT({
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -19,6 +20,20 @@ const config: Config = withMT({
         sans: ['GeistSans', 'Roboto', 'ui-sans-serif', 'system-ui'],
       },
     },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      emerald: colors.emerald,
+      indigo: colors.indigo,
+      yellow: colors.yellow,
+      stone: colors.stone,
+      sky: colors.sky,
+      neutral: colors.neutral,
+      gray: colors.gray,
+      slate: colors.slate,
+}
   },
   plugins: [],
 });

@@ -9,8 +9,8 @@
   display: block;
 }
 
-.position {
-  color: var(--text-secondary-color); 
-  font-size: 1rem;
-  font-weight: 500;
+.stack-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
 }

@@ -5,7 +5,7 @@ export default function Hello() {
     <section className="pb-3 mb-3">
       <h1 className="font-semibold text-4xl mb-4">
         Ciao, i'm Julio Peixoto.
-        <span className="block text-blue-gray-600 font-normal text-2xl">
+        <span className="block text-slate-500 font-normal text-2xl">
           Lorem ipsum, dolor sit amet consectetur.
         </span>
       </h1>
