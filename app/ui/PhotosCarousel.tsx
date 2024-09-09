@@ -28,22 +28,22 @@ export function PhotosCarousel() {
         )}
       >
         <img
-          src="/JulioPerfil.jpeg"
+          src="/Julio/JulioPerfil.jpeg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
         <img
-          src="/JulioApresentacao.jpeg"
+          src="/Julio/JulioApresentacao.jpeg"
           alt="image 2"
           className="h-full w-full object-cover"
         />
         <img
           alt="image 3"
-          src="/JulioBanese1.jpeg"
+          src="/Julio/JulioBanese1.jpeg"
           className="h-full w-full object-cover"
         />
         <img
-          src="/JulioTime1.jpg"
+          src="/Julio/JulioTime1.jpg"
           alt="image 4"
           className="h-full w-full object-cover"
         />

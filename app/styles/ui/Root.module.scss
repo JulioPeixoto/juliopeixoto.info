@@ -10,13 +10,13 @@
 }
 
 .main {
-  max-width: 50rem;
+  max-width: 45rem;
 
   display: flex;
   gap: 3rem;
 
   margin: auto;
-  padding: 1rem 1rem;
+  padding: 2rem 1rem;
 
   position: relative;
   z-index: 2;
@@ -31,7 +31,6 @@
     padding: 2rem 2rem;
   }
 }
-
 
 .content {
   display: flex;

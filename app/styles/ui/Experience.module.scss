@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+.date {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-secondary-color); 
+  font-size: 0.875rem; 
+  font-weight: 500; 
+  margin-top: 1rem; 
+  display: block;
+}
+
+.position {
+  color: var(--text-secondary-color); 
+  font-size: 1rem;
+  font-weight: 500;
+}

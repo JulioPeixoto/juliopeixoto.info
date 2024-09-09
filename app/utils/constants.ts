@@ -8,6 +8,23 @@ import {
 import { TbBrandMedium } from 'react-icons/tb';
 import { SiHuggingface } from "react-icons/si";
 
+export const EXP = [
+  {
+    name: 'Banese',
+    href: 'https://www.banese.com.br/',
+    photo: '/Experience/Banese.png',
+    position: 'Software Engineer / AI Developer',
+    date: 'Janeiro 2024 → Presente',
+  },
+  {
+    name: 'Colaborativa',
+    href: 'https://www.colaborativa.com.br/',
+    photo: '/Experience/Colaborativa.png',
+    position: 'Estagiário em Software Engineer',
+    date: 'Janeiro 2023 → Dezembro 2023',
+  }
+]
+
 export const SOCIAL = [
     {
       brand: 'linkedin',
