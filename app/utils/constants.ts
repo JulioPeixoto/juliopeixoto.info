@@ -10,11 +10,11 @@ import { SiHuggingface } from "react-icons/si";
 
 export const EXP = [
   {
-    name: 'Banese',
+    name: 'Banco do Estado de Sergipe (Banese)',
     href: 'https://www.banese.com.br/',
     photo: '/Experience/Banese.png',
     position: 'Software Engineer / AI Developer',
-    date: 'Janeiro 2024 → Presente',
+    date: 'Dezembro 2023 → Presente',
   },
   {
     name: 'Colaborativa',
