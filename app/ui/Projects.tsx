@@ -31,15 +31,15 @@ export default function Projects() {
   };
 
   return (
-    <section>
-      <h2 className="text-3xl font-semibold mb-2 pb-2">
+    <section className="mb-3 pb-3">
+      <h2 className="text-3xl font-semibold mb-3 pb-3">
         Projects
         <span className="block text-slate-500 font-normal text-2xl">
           Lorem ipsum dolor. laudantium eius aliquid
         </span>
       </h2>
 
-      <div className="grid grid-cols-1 gap-6">
+      <div className="grid grid-cols-1 gap-5">
         {Proj.map((project, index) => (
           <div
             key={index}
@@ -69,7 +69,7 @@ export default function Projects() {
               </div>
               <div className="flex space-x-3 mt-4">
                 {project.details.stack.map((IconComponent, idx) => (
-                  <IconComponent key={idx} size={30} className="" />
+                  <IconComponent key={idx} size={34} className="" />
                 ))}
               </div>
             </motion.div>

@@ -1,5 +1,5 @@
 import { RiNextjsFill } from "react-icons/ri";
-import { DiDjango, DiPostgresql } from "react-icons/di";
+import { DiDjango } from "react-icons/di";
 
 import {
   FaJsSquare,
@@ -7,23 +7,24 @@ import {
   FaDocker,
   FaReact,
   FaGithub,
+  FaDiscord,
 } from "react-icons/fa";
 
 import {
-  SiFastapi,
-  SiLangchain,
   SiMongodb,
   SiGooglecloud,
   SiMicrosoftazure,
   SiTypescript,
   SiMysql,
+  SiOpenai,
+  SiFlask,
 } from "react-icons/si";
 
 export const Proj = [
   {
     img: "/Projects/Portfolio.png",
-    name: "portfolio",
-    position: "side project",
+    name: "Portfolio",
+    position: "Side Project",
     href: "/",
     details: {
       describe: [
@@ -56,13 +57,13 @@ export const Proj = [
         `Meu proprio portfolio criado para ...`,
         `Desenvolvido com Typescript, NextJS, ReactJS e deploy feito na Azure`,
       ],
-      stack: [SiTypescript, FaReact, FaGithub],
+      stack: [FaJsSquare, FaPython, DiDjango, SiGooglecloud, FaDocker, SiMysql],
     },
   },
   {
     img: "/Projects/Notes.png",
     name: "Notes .MD",
-    position: "side project",
+    position: "Side Project",
     href: "/",
     details: {
       describe: [
@@ -70,6 +71,45 @@ export const Proj = [
         `Desenvolvido com Typescript, NextJS, ReactJS e deploy feito na Azure`,
       ],
       stack: [SiTypescript, FaReact, FaGithub],
+    },
+  },
+  {
+    img: "/Projects/Notes.png",
+    name: "Tenzie Game",
+    position: "Side Project",
+    href: "/",
+    details: {
+      describe: [
+        `Meu proprio portfolio criado para ...`,
+        `Desenvolvido com Typescript, NextJS, ReactJS e deploy feito na Azure`,
+      ],
+      stack: [SiTypescript, FaReact, FaGithub],
+    },
+  },
+  {
+    img: "/Projects/Notes.png",
+    name: "ChatGPT on Discord",
+    position: "Side Project",
+    href: "/",
+    details: {
+      describe: [
+        `Meu proprio portfolio criado para ...`,
+        `Desenvolvido com Typescript, NextJS, ReactJS e deploy feito na Azure`,
+      ],
+      stack: [FaPython, SiOpenai, FaGithub, FaDiscord],
+    },
+  },
+  {
+    img: "/Projects/Notes.png",
+    name: "Web Menu",
+    position: "Software Egineer Intern",
+    href: "/",
+    details: {
+      describe: [
+        `Meu proprio portfolio criado para ...`,
+        `Desenvolvido com Typescript, NextJS, ReactJS e deploy feito na Azure`,
+      ],
+      stack: [FaJsSquare, FaPython, SiFlask, FaGithub],
     },
   },
 ];
