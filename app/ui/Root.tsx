@@ -1,7 +1,5 @@
 import React from 'react';
-
 import styles from '@/app/styles/ui/Root.module.scss';
-import {ThemeProvider} from './Theme';
 
 type Props = {
   isMobile: boolean;
@@ -9,16 +7,14 @@ type Props = {
 };
 
 function Root(props: Props) {
-  const {isMobile, children} = props;
+  const { isMobile, children } = props;
 
   return (
-    <ThemeProvider>
-        <div className={styles.container}>
-          <main className={styles.main}>
-            <div className={styles.content}>{children}</div>
-          </main>
-        </div>
-    </ThemeProvider>
+    <div className={styles.container}>
+      <main className={styles.main}>
+        <div className={styles.content}>{children}</div>
+      </main>
+    </div>
   );
 }
 
