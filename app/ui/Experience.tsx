@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { EXP } from "@/app/utils/exp";
-import styles from '@/app/styles/ui/experience.module.scss';
+import styles from "@/app/styles/ui/experience.module.scss";
 
 export default function Experience() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -11,23 +11,23 @@ export default function Experience() {
   const cardVariants = {
     open: {
       opacity: 1,
-      height: 'auto',
+      height: "auto",
       y: 0,
       transition: {
         type: "spring",
         stiffness: 300,
         damping: 24,
         duration: 0.5,
-      }
+      },
     },
     closed: {
       opacity: 0,
       height: 0,
       y: 20,
       transition: {
-        duration: 0.2
-      }
-    }
+        duration: 0.2,
+      },
+    },
   };
 
   return (
@@ -55,7 +55,12 @@ export default function Experience() {
                 style={{ color: "transparent" }}
               />
               <div className="flex flex-col">
-                <a href={item.href} target="_blank" rel="noopener noreferrer" className="text-xl font-semibold">
+                <a
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl font-semibold"
+                >
                   {item.name}
                 </a>
                 <span className="text-slate-500">{item.position}</span>
@@ -70,13 +75,17 @@ export default function Experience() {
               initial="closed"
               className="overflow-hidden"
             >
-              <p className="text-sm mt-2">{item.details.text}</p>
-              <div className={styles['stack-icons']}>
+              <p className="text-sm mt-2">{item.details.text.map((paragraph, id) => (
+                <p key={id} className="mb-2">{paragraph}</p>
+              ))}</p>
+              <div className={styles["stack-icons"]}>
                 {item.details.stack.map((IconComponent, idx) => (
                   <IconComponent key={idx} size={24} className="" />
                 ))}
               </div>
             </motion.div>
+            {/* Transição Motion Frame */}
+
           </div>
         ))}
       </div>

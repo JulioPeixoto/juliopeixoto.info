@@ -9,13 +9,13 @@ const Navbar: React.FC = () => {
           <a href="/">home</a>
         </li>
         <li>
-          <a href="/work">work</a>
+          <a href="/works">experience</a>
         </li>
         <li>
-          <a href="/contact">contact</a>
+          <a href="https://www.linkedin.com/in/julio-rafael-souza/" target="_blank">linkedin</a>
         </li>
         <li>
-          <a href="https://github.com">github</a>
+          <a href="https://github.com/JulioRaf4" target="_blank">github</a>
         </li>
       </ul>
       <div className="flex-shrink-0">
