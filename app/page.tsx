@@ -1,5 +1,6 @@
 import Hello from "./ui/Hello";
 import { PhotosCarousel } from "./ui/PhotosCarousel";
+import Projects from "./ui/Projects";
 
 export default function Home() {  
   return (

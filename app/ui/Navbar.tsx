@@ -12,6 +12,9 @@ const Navbar: React.FC = () => {
           <a href="/works">experience</a>
         </li>
         <li>
+          <a href="/projects">projects</a>
+        </li>
+        <li>
           <a href="https://www.linkedin.com/in/julio-rafael-souza/" target="_blank">linkedin</a>
         </li>
         <li>
