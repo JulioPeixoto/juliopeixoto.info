@@ -9,7 +9,6 @@ import clsx from 'clsx';
 type Theme = 'light' | 'dark';
 type ThemeContextType = [Theme, (theme: Theme) => void];
 
-// Criando o contexto do tema
 export const ThemeContext = createContext<ThemeContextType>(null as any);
 
 function Theme() {
