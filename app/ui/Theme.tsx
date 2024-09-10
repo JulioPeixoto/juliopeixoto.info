@@ -10,7 +10,6 @@ import React, {
 
 import { FiMoon, FiSun } from 'react-icons/fi';
 import styles from '@/app/styles/ui/ThemeSwitch.module.scss';
-import useMediaQuery from '../hooks/useMediaQuery';
 import clsx from 'clsx';
 
 type Theme = 'light' | 'dark' | undefined;
@@ -33,13 +32,23 @@ function Theme() {
 }
 
 export function ThemeProvider(props: PropsWithChildren) {
-    const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
-
     const [theme, setTheme] = useState<Theme>('dark');
 
     useEffect(() => {
-        setTheme(prefersDarkMode ? 'dark' : 'light');
-    }, [prefersDarkMode]);
+        const storedTheme = localStorage.getItem('theme') as Theme;
+        if (storedTheme) {
+            setTheme(storedTheme);
+        } else {
+            const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            setTheme(prefersDarkMode ? 'dark' : 'light');
+        }
+    }, []);
+
+    useEffect(() => {
+        if (theme) {
+            localStorage.setItem('theme', theme);
+        }
+    }, [theme]);
 
     return (
         <ThemeContext.Provider value={[theme, setTheme]}>
