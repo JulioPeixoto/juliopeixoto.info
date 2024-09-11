@@ -12,7 +12,7 @@ import {
 
 export const EXP = [
   {
-    name: "Banco do Estado de Sergipe (Banese)",
+    name: "Banco do Estado de Sergipe",
     href: "https://www.banese.com.br/",
     photo: "/Experience/Banese.png",
     position: "Software Engineer / AI Developer",

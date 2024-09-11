@@ -17,7 +17,7 @@ export const SOCIAL = [
     },
     {
       brand: 'hugginface',
-      href: 'https://aripiprazole.medium.com',
+      href: 'https://huggingface.co/JulioRafa',
       username: 'JulioRaf4',
       icon: SiHuggingface,
     },
