@@ -19,11 +19,8 @@ export const EXP = [
     date: "Dezembro 2023 → Presente",
     details: {
       text: [
-        `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
-        `Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. `,
+        `Experiência no Banco do Estado de Sergipe como Software Engineer no time de Dados e IA.
+        Desenvolvendo SaaS internos com Inteligência Artificial utilizando Modelos de linguagem de IA Generativa.`,
       ],
       stack: [
         FaJsSquare,
@@ -45,9 +42,8 @@ export const EXP = [
     date: "Janeiro 2023 → Dezembro 2023",
     details: {
       text: [
-        `Lorem impsum dolor sit amet, consectetur adipisicing elit. Lorem impsum dolor sit amet, consectetur adipisicing elit.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.`,
-        `Lorem impsum dolor sit amet, consectetur adipisicing elit. Lorem impsum dolor sit amet, consectetur adipisicing elit.`,
+        `Estágio na Colaborativa como Desenvolvedor, trabalhando na equipe de desenvolvimento de software
+        criando novas features e realizando manutenção no sistema interno da empresa.`,
       ],
       stack: [
         FaJsSquare,

@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { EXP } from "@/app/utils/exp";
+import { EXP } from "@/app/utils/constants/constantsExperience";
 import styles from "@/app/styles/ui/experience.module.scss";
 
 export default function Experience() {
@@ -75,8 +75,8 @@ export default function Experience() {
               initial="closed"
               className="overflow-hidden"
             >
-              <p className="text-sm mt-2">{item.details.text.map((paragraph, id) => (
-                <p key={id} className="mb-2">{paragraph}</p>
+              <p className=" mt-2">{item.details.text.map((paragraph, id) => (
+                <p key={id} className="mb-1">{paragraph}</p>
               ))}</p>
               <div className={styles["stack-icons"]}>
                 {item.details.stack.map((IconComponent, idx) => (
