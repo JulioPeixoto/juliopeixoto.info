@@ -28,7 +28,7 @@ export const Proj = [
     href: "/",
     details: {
       describe: [
-        `Desenvolvido com Typescript, NextJS, ReactJS e deploy feito na Azure`,
+        `Developed with Typescript, NextJS, ReactJS and deployed on Azure`,
       ],
       stack: [SiTypescript, RiNextjsFill, FaReact, SiMicrosoftazure],
     },
@@ -40,9 +40,9 @@ export const Proj = [
     href: "https://github.com/JulioRaf4/banese-4966",
     details: {
       describe: [
-        `Serviço interno do Banco do Estado de Sergipe (Banese) para 
-        geração de dados fictícios para provisionamento e análise de crédito
-        utilizando Inteligência Artificial.`,
+        `Internal service of State Bank of Sergipe (Banese) to 
+        generating data for credit provisioning and analysis
+        using Artificial Intelligence.`,
       ],
       stack: [FaJsSquare, FaPython, DiDjango, FaDocker, SiMongodb, SiMysql],
     },
@@ -54,9 +54,8 @@ export const Proj = [
     href: "https://github.com/JulioRaf4/notes-project",
     details: {
       describe: [
-        `Projeto criado para armazenar e compartilhar anotações em formato .MD
-        Com preview do markdown.`,
-        `Desenvolvido com Typescript, ReactJS e deploy feito no GitHub Pages`,
+        `Project created to store and share notes in .MD format with a markdown preview.`,
+        `Developed with Typescript, ReactJS and deployed on GitHub Pages.`,
       ],
       stack: [SiTypescript, FaReact, FaGithub],
     },
@@ -68,8 +67,8 @@ export const Proj = [
     href: "https://github.com/JulioRaf4/tenzies-game",
     details: {
       describe: [
-        `Projeto criado durante o curso ReactJS do Scrimba.`,
-        `Desenvolvido com Typescript, ReactJS e deploy feito na Github Pages`,
+        `Side project created at Scrimba's React Course to improve Skills and retain knowledge.`,
+        `Developed with Typescript, ReactJS and deployed on GitHub Pages.`,
       ],
       stack: [SiTypescript, FaReact, FaGithub],
     },
@@ -81,10 +80,10 @@ export const Proj = [
     href: "https://github.com/JulioRaf4/chatgptondiscord2",
     details: {
       describe: [
-        `Projeto criado para interagir com o ChatGPT da OpenAI via chat no Discord.`,
-        `Desenvolvido com Python e OpenAI API`,
+        `Project created to do a chat on Discord with OpenAI ChatGPT Models.`,
+        `Developed with Python, OpenAI API and Discord API.`,
       ],
-      stack: [FaPython, SiOpenai, FaGithub, FaDiscord],
+      stack: [FaPython, SiOpenai, FaDiscord],
     },
   },
   {
@@ -94,8 +93,8 @@ export const Proj = [
     href: "/",
     details: {
       describe: [
-        `Projeto criado para desenvolver skills em Back-End com Python`,
-        `Desenvolvido com Python com Flask, JavaScript.`,
+        `Project created to improve Back-end Skills with Python and Front-end with Js`,
+        `Developed with Python Flask and JavaScript.`,
       ],
       stack: [FaJsSquare, FaPython, SiFlask, FaGithub],
     },
@@ -107,9 +106,8 @@ export const Proj = [
     href: "/",
     details: {
       describe: [
-        `Craiação de novas features e manutenção do sistema interno da empresa.`,
-        `Criação parcial do sistema de Autorização e Autenticação. Feature de 
-        agenda interativa de colaborades.`,
+        `Creation of new features and maintenance of the company's internal system.`,
+        `Partial creation of the Authorization and Authentication system.`,
       ],
       stack: [FaJsSquare, FaPython, DiDjango, SiGooglecloud, FaDocker, SiMysql],
     },

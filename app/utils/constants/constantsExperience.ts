@@ -12,15 +12,15 @@ import {
 
 export const EXP = [
   {
-    name: "Banco do Estado de Sergipe",
+    name: "State Bank of Sergipe",
     href: "https://www.banese.com.br/",
     photo: "/Experience/Banese.png",
     position: "Software Engineer / AI Developer",
-    date: "Dezembro 2023 → Presente",
+    date: "December 2023 → Moment",
     details: {
       text: [
-        `Experiência no Banco do Estado de Sergipe como Software Engineer no time de Dados e IA.
-        Desenvolvendo SaaS internos com Inteligência Artificial utilizando Modelos de linguagem de IA Generativa.`,
+        `Experience at State Bank of Sergipe [BANESE] as a Software Engineer in the Data and AI team.
+        Developing and releasing internal services [SaaS] with Artificial Intelligence using Generative AI language models.`,
       ],
       stack: [
         FaJsSquare,
@@ -39,11 +39,11 @@ export const EXP = [
     href: "https://www.colaborativa.com.br/",
     photo: "/Experience/Colaborativa.png",
     position: "Estagiário em Software Engineer",
-    date: "Janeiro 2023 → Dezembro 2023",
+    date: "January 2023 → December 2023",
     details: {
       text: [
-        `Estágio na Colaborativa como Desenvolvedor, trabalhando na equipe de desenvolvimento de software
-        criando novas features e realizando manutenção no sistema interno da empresa.`,
+        `Internship at Colaborativa, an Edtech startup, as a Developer working in the software development team
+         creating and releasing new features and maintaining the company's internal systems`,
       ],
       stack: [
         FaJsSquare,

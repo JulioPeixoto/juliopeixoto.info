@@ -3,13 +3,13 @@ import Theme from "./Theme";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center font-medium justify-between py-5 h-3 w-full">
+    <nav className="flex items-center font-medium justify-between py-3 h-3 w-full">
       <ul className="flex items-center space-x-6">
         <li>
           <a href="/">home</a>
         </li>
         <li>
-          <a href="/works">experience</a>
+          <a href="/experience">experience</a>
         </li>
         <li>
           <a href="/projects">projects</a>

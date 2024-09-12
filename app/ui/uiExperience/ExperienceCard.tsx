@@ -48,14 +48,14 @@ export const ExperienceCard = ({
 
       {/* Transição Motion Frame */}
       <motion.div
-        variants={cardVariantsExperience} // Usando as variantes do framerMotionConfig
+        variants={cardVariantsExperience} 
         animate={hoveredIndex === index ? "open" : "closed"}
         initial="closed"
         className="overflow-hidden"
       >
         <p className="mt-2">
           {item.details.text.map((paragraph: string, id: number) => (
-            <p key={id} className="mb-1">
+            <p key={id} className="mb-1 text-lg">
               {paragraph}
             </p>
           ))}
@@ -63,7 +63,7 @@ export const ExperienceCard = ({
         <div className={styles["stack-icons"]}>
           {item.details.stack.map(
             (IconComponent: React.ElementType, idx: number) => (
-              <IconComponent key={idx} size={24} />
+              <IconComponent key={idx} size={30} />
             )
           )}
         </div>

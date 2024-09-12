@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { cardVariantsProjects } from "@/app/utils/framerMotionConfig"; // Importando as configurações do Motion
+import { cardVariantsProjects } from "@/app/utils/framerMotionConfig"; 
 import { GitHubIcon } from "./GitHubIcon";
 import { ProjectDetails } from "./ProjectDetails";
 

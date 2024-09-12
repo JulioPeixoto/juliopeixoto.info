@@ -4,7 +4,7 @@ import { Carousel } from "@material-tailwind/react";
 
 export function PhotosCarousel() {
   return (
-    <section className="pt-2 pb-6 mb-6 mt-2">
+    <section className="pb-3 mb-3">
       <Carousel
         className="rounded-xl"
         placeholder={undefined}
