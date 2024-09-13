@@ -74,7 +74,7 @@ export const Proj = [
     },
   },
   {
-    img: "/Projects/Notes.png",
+    img: "/Projects/Chatbot.png",
     name: "ChatGPT on Discord",
     position: "Side Project",
     href: "https://github.com/JulioRaf4/chatgptondiscord2",
@@ -87,10 +87,10 @@ export const Proj = [
     },
   },
   {
-    img: "/Projects/Notes.png",
+    img: "/Projects/WebMenu.png",
     name: "Web Menu",
     position: "Software Engineer Intern",
-    href: "/",
+    href: "https://github.com/JulioRaf4/web-menu",
     details: {
       describe: [
         `Project created to improve Back-end Skills with Python and Front-end with Js`,
@@ -98,18 +98,5 @@ export const Proj = [
       ],
       stack: [FaJsSquare, FaPython, SiFlask, FaGithub],
     },
-  },
-  {
-    img: "/Projects/Notes.png",
-    name: "Colab",
-    position: "Software Engineer Intern",
-    href: "/",
-    details: {
-      describe: [
-        `Creation of new features and maintenance of the company's internal system.`,
-        `Partial creation of the Authorization and Authentication system.`,
-      ],
-      stack: [FaJsSquare, FaPython, DiDjango, SiGooglecloud, FaDocker, SiMysql],
-    },
-  },
+  }
 ];
