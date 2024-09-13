@@ -6,7 +6,6 @@ import {
   } from 'react-icons/fi';
   
   import { SiHuggingface,} from "react-icons/si";
-  import { TbBrandMedium } from 'react-icons/tb';
 
 export const SOCIAL = [
     {
@@ -29,14 +28,14 @@ export const SOCIAL = [
     },
     {
       brand: 'instagram',
-      href: 'https://instagram.com/io.gabx',
+      href: 'https://www.instagram.com/juliopeixot0/',
       username: 'io.gabx',
       icon: FiInstagram,
     },
     // {
     //   brand: 'twitter',
-    //   href: 'https://twitter.com/io_gabx',
-    //   username: 'io_gabx',
+    //   href: '',
+    //   username: '',
     //   icon: FiTwitter,
     //   preview: [],
     // },
