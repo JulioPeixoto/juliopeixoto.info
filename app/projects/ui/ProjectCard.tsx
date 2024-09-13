@@ -35,7 +35,7 @@ export const ProjectCard = ({
         <img
           src={project.img}
           alt={`${project.name} image`}
-          className="w-full h-96 object-cover rounded-md mb-4"
+          className="w-full object-cover rounded-md mb- aspect-w-16 aspect-h-94"
         />
         <ProjectDetails describe={project.details.describe} stack={project.details.stack} />
       </motion.div>
