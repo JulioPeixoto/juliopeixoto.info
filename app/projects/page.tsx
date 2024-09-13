@@ -1,4 +1,4 @@
-import Projects from "../ui/Projects";
+import Projects from "./ui/Projects";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
             Lorem ipsum dolor. laudantium eius aliquid
           </span>
         </h2>
-        <p className="text-lg md:text-xl leading-normal prose prose-lg">
+        <p className="leading-normal">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci vel
           rem ab minus quidem perferendis officiis recusandae distinctio
           quisquam facilis ducimus ipsam quia, repellat iusto, libero nesciunt

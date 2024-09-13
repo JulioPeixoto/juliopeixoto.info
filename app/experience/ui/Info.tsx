@@ -6,7 +6,7 @@ export default function Info() {
       <h1 className="font-semibold tracking-tight text-4xl mb-3 pb-3 ">
         Work
       </h1>
-      <section className="text-lg md:text-xl leading-normal pb-8 prose prose-lg *:mb-5 ">
+      <section className="md:text-lg leading-normal *:mb-5 ">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci vel
           rem ab minus quidem perferendis officiis recusandae distinctio

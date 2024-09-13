@@ -1,5 +1,5 @@
-import Experience from "../ui/Experience";
-import Info from "../ui/Info";
+import Experience from "./ui/Experience";
+import Info from "./ui/Info";
 
 export default function Home() {
   return (

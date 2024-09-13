@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { EXP } from "@/app/utils/constants/constantsExperience"; 
-import { ExperienceCard } from "./uiExperience/ExperienceCard";
+import { EXP } from "../utils/constantsExperience"; 
+import { ExperienceCard } from "./ExperienceCard";
 
 export default function Experience() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);

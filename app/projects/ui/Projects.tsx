@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { Proj } from "@/app/utils/constants/constantsProjects";
-import { ProjectCard } from "./uiProjects/ProjectCard";
+import { Proj } from "@/app/projects/utils/constantsProjects";
+import { ProjectCard } from "../ui/ProjectCard";
 
 export default function Projects() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);

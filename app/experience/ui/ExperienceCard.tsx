@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { cardVariantsExperience } from "@/app/utils/framerMotionConfig"; // Importando as configurações do Motion
-import styles from "@/app/styles/ui/experience.module.scss";
+import styles from "../styles/experience.module.scss";
 
 export const ExperienceCard = ({
   item,

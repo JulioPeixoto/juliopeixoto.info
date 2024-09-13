@@ -17,7 +17,7 @@ const config: Config = withMT({
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        sans: ['GeistSans', 'Roboto', 'ui-sans-serif', 'system-ui'],
+        sans: ['SaansFont', 'ui-sans-serif', 'system-ui'],
       },
     },
     colors: {
@@ -35,7 +35,7 @@ const config: Config = withMT({
       slate: colors.slate,
 }
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 });
 
 export default config;
