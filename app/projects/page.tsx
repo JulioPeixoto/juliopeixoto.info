@@ -1,3 +1,4 @@
+import Hackton from "./ui/Hackaton";
 import Projects from "./ui/Projects";
 
 export default function Home() {
@@ -7,17 +8,23 @@ export default function Home() {
         <h2 className="text-3xl font-semibold mb-3 pb-3">
           Projects
           <span className="block text-slate-500 font-normal text-2xl">
-            Lorem ipsum dolor. laudantium eius aliquid
+          Some stuffs
           </span>
         </h2>
-        <p className="md:text-lg text-base leading-normal mt-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci vel
-          rem ab minus quidem perferendis officiis recusandae distinctio
-          quisquam facilis ducimus ipsam quia, repellat iusto, libero nesciunt
-          iure illo dolores.
+        <p className="text-base leading-normal mt-2">
+          Here are some of the projects I've done during my career and
+          some side projects I've done during my spare time. If you want to see more stuff I've done, just go to my{" "}
+          <a
+            className="text-blue-700 hover:text-blue-200"
+            href="https://github.com/JulioRaf4"
+            target="_blank"
+          >
+            github.
+          </a>
         </p>
       </section>
       <Projects />
+      <Hackton />
     </main>
   );
 }

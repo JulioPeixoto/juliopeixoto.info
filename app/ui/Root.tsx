@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '@/app/styles/ui/Root.module.scss';
+import styles from '@/app/styles/Root.module.scss';
 
 type Props = {
   isMobile: boolean;

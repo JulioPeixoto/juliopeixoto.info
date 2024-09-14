@@ -6,7 +6,7 @@ export const cardVariantsProjects = {
     transition: {
       type: "spring",
       stiffness: 300,
-      damping: 50,
+      damping: 24,
       duration: 0.7,
     },
   },
@@ -28,7 +28,7 @@ export const cardVariantsExperience = {
     transition: {
       type: "spring",
       stiffness: 300,
-      damping: 24,
+      damping: 20,
       duration: 0.5,
     },
   },

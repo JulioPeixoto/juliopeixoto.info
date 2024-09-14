@@ -1,6 +1,6 @@
 import React from "react";
 import Theme from "./Theme";
-import classes from "@/app/styles/ui/Navbar.module.scss";
+import classes from "@/app/styles/Navbar.module.scss";
 
 const Navbar: React.FC = () => {
   return (
