@@ -12,7 +12,7 @@ export default function Experience() {
       <h2 className="font-semibold text-2xl tracking-tight mb-2 mt-2">
         Experience
         <span className="block text-slate-500 font-normal text-lg">
-        companies I've worked for        
+        companies Ive worked for        
         </span>
       </h2>
       <div className="divide-y divide-blue-gray-700">

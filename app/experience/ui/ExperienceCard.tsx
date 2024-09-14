@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { cardVariantsExperience } from "@/app/utils/framerMotionConfig"; // Importando as configurações do Motion
 import styles from "../styles/Experience.module.scss";
+import Image from "next/image";
 
 export const ExperienceCard = ({
   item,
@@ -22,11 +23,10 @@ export const ExperienceCard = ({
       onMouseLeave={() => setHoveredIndex(null)}
     >
       <div className="flex gap-4 items-center">
-        <img
+        <Image
           alt={`${item.name} logo`}
-          loading="lazy"
-          width="56"
-          height="56"
+          width="512"
+          height="512"
           decoding="async"
           className="w-20 h-20 rounded-xl"
           src={item.photo}
@@ -47,7 +47,7 @@ export const ExperienceCard = ({
 
       {/* Transição Motion Frame */}
       <motion.div
-        variants={cardVariantsExperience} 
+        variants={cardVariantsExperience}
         animate={hoveredIndex === index ? "open" : "closed"}
         initial="closed"
         className="overflow-hidden"

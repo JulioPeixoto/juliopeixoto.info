@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { cardVariantsProjects } from "@/app/utils/framerMotionConfig"; 
 import { GitHubIcon } from "./GitHubIcon";
 import { ProjectDetails } from "./ProjectDetails";
+import Image from 'next/image';
 
 export const ProjectCard = ({
   project,
@@ -32,9 +33,11 @@ export const ProjectCard = ({
         initial="closed"
         className="overflow-hidden"
       >
-        <img
+        <Image
           src={project.img}
           alt={`${project.name} image`}
+          width={1000} 
+          height={500} 
           className="w-full object-cover rounded-md mb- aspect-w-16 aspect-h-94"
         />
         <ProjectDetails describe={project.details.describe} stack={project.details.stack} />

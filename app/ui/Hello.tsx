@@ -4,7 +4,7 @@ export default function Hello() {
   return (
     <section className="pb-1 mb-1">
       <h1 className="font-semibold text-4xl mb-3">
-        Hi, i'm Julio Peixoto.
+        Hi, im Julio Peixoto.
         <span className="block text-slate-500 font-normal text-2xl">
           Software Engineer
         </span>

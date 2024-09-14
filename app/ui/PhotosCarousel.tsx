@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Carousel } from "@material-tailwind/react";
 
 export function PhotosCarousel() {
@@ -27,24 +28,32 @@ export function PhotosCarousel() {
           </div>
         )}
       >
-        <img
+        <Image
           src="/Carousel/JulioPerfil.jpeg"
           alt="image 1"
+          width={2000} 
+          height={1000} 
           className="h-full w-full object-cover"
         />
-        <img
+        <Image
           src="/Carousel/JulioApresentacao.jpeg"
           alt="image 2"
+          width={2000} 
+          height={1000} 
           className="h-full w-full object-cover"
         />
-        <img
+        <Image
           alt="image 3"
           src="/Carousel/JulioBanese1.jpeg"
+          width={2000} 
+          height={1000} 
           className="h-full w-full object-cover"
         />
-        <img
+        <Image
           src="/Carousel/JulioTime1.jpg"
           alt="image 4"
+          width={2000} 
+          height={1000} 
           className="h-full w-full object-cover"
         />
       </Carousel>
