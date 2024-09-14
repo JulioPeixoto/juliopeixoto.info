@@ -8,7 +8,7 @@ import React, {
   useState,
 } from "react";
 import { FiMoon, FiSun } from "react-icons/fi";
-import styles from "@/app/styles/ui/ThemeSwitch.module.scss";
+import styles from "@/app/styles/ThemeSwitch.module.scss";
 import clsx from "clsx";
 
 // Definição do tipo de tema

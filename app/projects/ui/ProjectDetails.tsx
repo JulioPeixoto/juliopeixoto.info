@@ -11,7 +11,7 @@ export const ProjectDetails = ({
     <div>
       <div className="text-sm mb-2">
         {describe.map((paragraph, idx) => (
-          <p key={idx} className="md:text-lg text-base leading-normal mt-2">
+          <p key={idx} className="mt-2">
             {paragraph}
           </p>
         ))}

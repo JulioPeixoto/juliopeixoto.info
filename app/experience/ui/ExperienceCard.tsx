@@ -30,7 +30,6 @@ export const ExperienceCard = ({
           decoding="async"
           className="w-20 h-20 rounded-xl"
           src={item.photo}
-          style={{ color: "transparent" }}
         />
         <div className="flex flex-col">
           <a
@@ -55,7 +54,7 @@ export const ExperienceCard = ({
       >
         <p className="mt-2">
           {item.details.text.map((paragraph: string, id: number) => (
-            <p key={id} className="mb-1 text-lg">
+            <p key={id} className="mb-1">
               {paragraph}
             </p>
           ))}
@@ -63,7 +62,11 @@ export const ExperienceCard = ({
         <div className={styles["stack-icons"]}>
           {item.details.stack.map(
             (IconComponent: React.ElementType, idx: number) => (
-              <IconComponent key={idx} size={30} />
+              <IconComponent
+                key={idx}
+                size={30}
+                className=" theme--light transition-colors duration-200"
+              />
             )
           )}
         </div>

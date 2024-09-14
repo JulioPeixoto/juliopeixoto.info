@@ -9,8 +9,8 @@ export default function Hello() {
           Software Engineer
         </span>
       </h1>
-      <p className="md:text-lg leading-normal mb-2 pb-2">
-        I work developing and launching robust and secure services and
+      <p className="mb-2 pb-2">
+        I work developing and releasing robust and secure services and
         softwares. I currently work at{" "}
         <a
           target="_blank"
@@ -20,7 +20,7 @@ export default function Hello() {
           State Bank of Sergipe
         </a>{" "}
         as a software engineer creating internal services with artificial
-        intelligence in the data and artificial intelligence team.
+        intelligence in the data and AI team.
       </p>
     </section>
   );

@@ -1,4 +1,4 @@
-@import "../variables";
+@import 'variables';
 
 .container {
   display: flex;
@@ -46,8 +46,15 @@
   }
 
   > p {
-    font-size: 1.2rem;
-    text-align: justify;
+    @media (min-width: 720px) {
+      .md\:text-lg {
+        font-size: 1.125rem /* 18px */;
+        line-height: 1.75rem /* 28px */;
+      }
+    }
+
+    font-size: 1rem /* 16px */;
+    line-height: 1.5rem /* 24px */;
   }
 
   > h1 {
