@@ -11,7 +11,7 @@ export const ProjectDetails = ({
     <div>
       <div className="text-sm mb-2">
         {describe.map((paragraph, idx) => (
-          <p key={idx} className="text-lg">
+          <p key={idx} className="md:text-lg text-base leading-normal mt-2">
             {paragraph}
           </p>
         ))}
@@ -19,7 +19,7 @@ export const ProjectDetails = ({
       <span className="text-slate-500 font-semibold ">Technologies used</span>
       <div className="flex space-x-3 mt-0.5">
         {stack.map((IconComponent, idx) => (
-          <IconComponent key={idx} size={34} />
+          <IconComponent key={idx} size={30} />
         ))}
       </div>
     </div>

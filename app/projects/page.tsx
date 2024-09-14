@@ -10,7 +10,7 @@ export default function Home() {
             Lorem ipsum dolor. laudantium eius aliquid
           </span>
         </h2>
-        <p className="leading-normal">
+        <p className="md:text-lg text-base leading-normal mt-2">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci vel
           rem ab minus quidem perferendis officiis recusandae distinctio
           quisquam facilis ducimus ipsam quia, repellat iusto, libero nesciunt
