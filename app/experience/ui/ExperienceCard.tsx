@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { cardVariantsExperience } from "@/app/utils/framerMotionConfig"; // Importando as configurações do Motion
 import styles from "../styles/Experience.module.scss";
 import Image from "next/image";
+import Link from "next/link";
 
 export const ExperienceCard = ({
   item,
@@ -32,14 +33,14 @@ export const ExperienceCard = ({
           src={item.photo}
         />
         <div className="flex flex-col">
-          <a
+          <Link
             href={item.href}
             target="_blank"
             rel="noopener noreferrer"
             className="text-xl font-semibold"
           >
             {item.name}
-          </a>
+          </Link>
           <span className="text-slate-500">{item.position}</span>
           <span className={styles.date}>{item.date}</span>
         </div>

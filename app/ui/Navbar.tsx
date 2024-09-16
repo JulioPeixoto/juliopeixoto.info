@@ -1,27 +1,28 @@
 import React from "react";
 import Theme from "./Theme";
 import classes from "@/app/styles/Navbar.module.scss";
+import Link from "next/link";
 
 const Navbar: React.FC = () => {
   return (
     <nav className={classes.navbar}>
       <ul className={classes.navList}>
         <li>
-          <a href="/">home</a>
+          <Link href="/">home</Link>
         </li>
         <li>
-          <a href="/experience">experience</a>
+          <Link href="/experience">experience</Link>
         </li>
         <li>
-          <a href="/projects">projects</a>
+          <Link href="/projects">projects</Link>
         </li>
         <li>
-          <a
+          <Link
             href="https://www.linkedin.com/in/julio-rafael-souza/"
             target="_blank"
           >
             linkedin
-          </a>
+          </Link>
         </li>
       </ul>
       <div className={classes.themeWrapper}>
