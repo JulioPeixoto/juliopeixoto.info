@@ -1,8 +1,9 @@
+import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 
 export const GitHubIcon = ({ href }: { href: string }) => {
   return (
-    <a
+    <Link
       href={href}
       target="_blank"
       rel="noopener noreferrer"
@@ -10,6 +11,6 @@ export const GitHubIcon = ({ href }: { href: string }) => {
       aria-label="GitHub Link"
     >
       <FaGithub size={30} className="hover:text-gray-500" />
-    </a>
+    </Link>
   );
 };

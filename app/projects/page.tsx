@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Hackton from "./ui/Hackaton";
 import Projects from "./ui/Projects";
 
@@ -14,13 +15,13 @@ export default function Home() {
         <p className="text-base leading-normal mt-2">
           Here are some of the projects Ive done during my career and
           some side projects Ive done during my spare time. If you want to see more stuff Ive done, just go to my{" "}
-          <a
+          <Link
             className="text-blue-700 hover:text-blue-200"
             href="https://github.com/JulioRaf4"
             target="_blank"
           >
             github.
-          </a>
+          </Link>
         </p>
       </section>
       <Projects />

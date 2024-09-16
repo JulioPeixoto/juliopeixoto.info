@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Hello() {
@@ -12,13 +13,13 @@ export default function Hello() {
       <p className="mb-2 pb-2">
         I work developing and releasing robust and secure services and
         softwares. I currently work at{" "}
-        <a
+        <Link
           target="_blank"
           href="https://www.banese.com.br/"
           className="text-blue-700 hover:text-blue-200"
         >
           State Bank of Sergipe
-        </a>{" "}
+        </Link>{" "}
         as a software engineer creating internal services with artificial
         intelligence in the data and AI team.
       </p>

@@ -1,5 +1,6 @@
 import React from "react";
 import { SOCIAL } from "@/app/utils/constantsSocial";
+import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto text-center">
         <div className="flex justify-center space-x-6">
           {SOCIAL.map((social) => (
-            <a
+            <Link
               key={social.brand}
               href={social.href}
               target="_blank"
@@ -16,7 +17,7 @@ const Footer: React.FC = () => {
               aria-label={social.brand}
             >
               <social.icon size={24} />
-            </a>
+            </Link>
           ))}
         </div>
 
