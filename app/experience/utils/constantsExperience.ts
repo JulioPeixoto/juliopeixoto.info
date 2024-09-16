@@ -38,7 +38,7 @@ export const EXP = [
     name: "Colaborativa",
     href: "https://www.colaborativa.com.br/",
     photo: "/Experience/Colaborativa.png",
-    position: "Estagiário em Software Engineer",
+    position: "Software Engineer Intern",
     date: "January 2023 → December 2023",
     details: {
       text: [
