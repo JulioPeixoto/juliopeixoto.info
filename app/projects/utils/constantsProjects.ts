@@ -40,9 +40,8 @@ export const Proj = [
     href: "https://github.com/JulioRaf4/banese-4966",
     details: {
       describe: [
-        `Internal service of State Bank of Sergipe (Banese) to 
-        generating data for credit provisioning and analysis
-        using Artificial Intelligence.`,
+        `Internal application for the State Bank of Sergipe (Banese) on generating data for 
+        credit provisioning and analysis using Artificial Intelligence.`,
       ],
       stack: [FaJsSquare, FaPython, DiDjango, FaDocker, SiMongodb, SiMysql],
     },
@@ -98,5 +97,5 @@ export const Proj = [
       ],
       stack: [FaJsSquare, FaPython, SiFlask, FaGithub],
     },
-  }
+  },
 ];
