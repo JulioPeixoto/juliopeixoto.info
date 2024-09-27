@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaChevronDown } from "react-icons/fa"; 
 
-export const ExperienceCard = ({
+export const ExperienceCard = React.memo(({
   item,
   index,
   hoveredIndex,
@@ -64,14 +64,10 @@ export const ExperienceCard = ({
           transition={{ duration: 0.3 }} 
           className="cursor-pointer"
         >
-          <FaChevronDown 
-          onClick={toggleCard} 
-          size={20} 
-          />
+          <FaChevronDown onClick={toggleCard} size={20} />
         </motion.div>
       </div>
 
-      {/* Transição Motion Frame */}
       <motion.div
         variants={cardVariantsExperience}
         animate={isOpen ? "open" : "closed"}
@@ -100,4 +96,6 @@ export const ExperienceCard = ({
       </motion.div>
     </div>
   );
-};
+});
+
+ExperienceCard.displayName = "ExperienceCard";

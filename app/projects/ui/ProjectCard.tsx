@@ -5,7 +5,7 @@ import { ProjectDetails } from "./ProjectDetails";
 import Image from 'next/image';
 import { FaChevronDown } from 'react-icons/fa';
 
-export const ProjectCard = ({
+export const ProjectCard = React.memo(({
   project,
   index,
   hoveredIndex,
@@ -29,7 +29,7 @@ export const ProjectCard = ({
       setHoveredIndex(index); 
     }
   };
-  
+
   return (
     <div
       key={index}
@@ -48,11 +48,7 @@ export const ProjectCard = ({
           transition={{ duration: 0.3 }} 
           className="cursor-pointer"
         >
-          <FaChevronDown 
-          onClick={toggleCard} 
-          size={20} 
-          />
-          
+          <FaChevronDown onClick={toggleCard} size={20} />
         </motion.div>
       </div>
 
@@ -75,4 +71,6 @@ export const ProjectCard = ({
       </motion.div>
     </div>
   );
-};
+});
+
+ProjectCard.displayName = "ProjectCard";

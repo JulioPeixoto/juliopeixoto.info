@@ -4,11 +4,14 @@ import Navbar from "./ui/Navbar";
 import Root from "./ui/Root";
 import Footer from "./ui/Footer";
 import { ThemeProvider } from './ui/Theme';
+import { Inter } from 'next/font/google';
 
 export const metadata: Metadata = {
   title: "Julio Peixoto",
   description: "Julio Peixoto personal website",
 };
+
+const inter = Inter({ subsets: ['latin'] });
 
 export default function RootLayout({
   children,
@@ -16,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
       <head>
         <link rel="icon" href='/favicon.ico'/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
