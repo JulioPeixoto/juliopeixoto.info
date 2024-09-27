@@ -69,6 +69,7 @@ export const ProjectCard = ({
           height={500}
           className="w-full object-cover rounded-md mb-4 aspect-w-16 aspect-h-9"
           onClick={handleCardClick} 
+          loading="lazy"
         />
         <ProjectDetails describe={project.details.describe} stack={project.details.stack} />
       </motion.div>

@@ -38,11 +38,12 @@ export const ExperienceCard = ({
         <div className="flex gap-4 items-center">
           <Image
             alt={`${item.name} logo`}
-            width="512"
-            height="512"
+            width={512}
+            height={512}
             decoding="async"
             className="w-20 h-20 rounded-xl"
             src={item.photo}
+            loading="lazy"
           />
           <div className="flex flex-col">
             <Link
