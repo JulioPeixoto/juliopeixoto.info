@@ -16,7 +16,7 @@ export const ProjectDetails = ({
           </p>
         ))}
       </div>
-      <span className="text-slate-500 font-semibold ">Technologies used</span>
+      <span className="text-slate-500 font-semibold text-sm">Technologies used</span>
       <div className="flex space-x-3 mt-0.5">
         {stack.map((IconComponent, idx) => (
           <IconComponent key={idx} size={30} />
