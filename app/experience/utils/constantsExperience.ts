@@ -19,8 +19,8 @@ export const EXP = [
     date: "December 2023 → Moment",
     details: {
       text: [
-        `Experience at State Bank of Sergipe [BANESE] as a Software Engineer in the Data and AI team.
-        Developing and releasing internal services [SaaS] with Artificial Intelligence using Generative AI language models.`,
+        `Experience at State Bank of Sergipe [BANESE] as a Software Engineer and AI Engineer in the Data and AI team.
+        Developing and releasing internal services with Artificial Intelligence using Generative AI language models.`,
       ],
       stack: [
         FaJsSquare,
