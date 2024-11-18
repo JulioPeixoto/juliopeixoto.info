@@ -1,5 +1,6 @@
 import { RiNextjsFill } from "react-icons/ri";
 import { DiDjango } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 import {
   FaJsSquare,
@@ -18,6 +19,7 @@ import {
   SiMysql,
   SiOpenai,
   SiFlask,
+  SiVercel,
 } from "react-icons/si";
 
 export const Proj = [
@@ -31,6 +33,20 @@ export const Proj = [
         `Developed with Typescript, NextJS, ReactJS and deployed on Azure`,
       ],
       stack: [SiTypescript, RiNextjsFill, FaReact, SiMicrosoftazure],
+    },
+  },
+  {
+    img: "/Projects/MentalChatbot.png",
+    name: "RAG Chatbot for psychology aplicattion", 
+    position: "Article Project",
+    href: "https://rag-psychology-ui.vercel.app/",
+    details: {
+      describe: [
+        `Project developed from a scientific article where the focus is to develop 
+        a Rag system for psychologists to apply in the area of mental health.
+        Developed with Typescript, NextJS, ReactJS, Pinecone and Postgres. Deployed on Vercel.`,
+      ],
+      stack: [SiTypescript, RiNextjsFill, FaReact, BiLogoPostgresql, SiVercel],
     },
   },
   {
@@ -83,19 +99,6 @@ export const Proj = [
         `Developed with Python, OpenAI API and Discord API.`,
       ],
       stack: [FaPython, SiOpenai, FaDiscord],
-    },
-  },
-  {
-    img: "/Projects/WebMenu.png",
-    name: "Web Menu",
-    position: "Software Engineer Intern",
-    href: "https://github.com/JulioRaf4/web-menu",
-    details: {
-      describe: [
-        `Project created to improve Back-end Skills with Python and Front-end with Js`,
-        `Developed with Python Flask and JavaScript.`,
-      ],
-      stack: [FaJsSquare, FaPython, SiFlask, FaGithub],
     },
   },
 ];
