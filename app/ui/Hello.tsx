@@ -7,7 +7,7 @@ export default function Hello() {
       <h1 className="font-semibold text-4xl mb-3">
         Hi, im Julio Peixoto.
         <span className="block text-slate-500 font-normal text-2xl">
-          Software Engineer and AI Engineer
+          Software and AI Engineer
         </span>
       </h1>
       <p className="mb-2 pb-2">
