@@ -20,11 +20,13 @@ export const EXP = [
     date: "December 2023 → Moment",
     details: {
       text: [
-        `As a Software Engineer at State Bank of Sergipe, I focus on developing AI-powered solutions for the bank's internal operations. 
-        I work with full-stack development using Python (FastAPI/Django) and TypeScript (React/Next.js), specializing in implementing 
-        AI solutions through the LangChain framework. Working in an agile environment, I actively participate in Scrum ceremonies, 
-        perform code reviews, and maintain high code quality standards. My responsibilities include collaborating with team members 
-        through Git version control and resolving technical challenges across the entire stack.`,
+        `As a Software Engineer at State Bank of Sergipe, I specialize in developing and implementing AI-powered solutions 
+        that enhance the bank's internal operations. I architect and develop full-stack applications using Python 
+        (FastAPI/Django) for robust backend services and TypeScript (React/Next.js) for responsive front-end interfaces. 
+        My core focus is on implementing advanced AI solutions using the LangChain framework and Large Language Models, 
+        creating intelligent systems that automate and optimize banking processes. Working in an agile environment, 
+        I ensure high code quality through thorough code reviews and maintain efficient deployment pipelines using Docker 
+        and Azure cloud services.`,
       ],
       stack: [
         FaJsSquare,
@@ -46,11 +48,12 @@ export const EXP = [
     date: "January 2023 → December 2023",
     details: {
       text: [
-        `During my internship at Colaborativa, I worked as a full-stack developer with a strong focus on backend development. 
-        I played a key role in developing the company's internal management system, where I implemented several critical features 
-        including a comprehensive authorization system for role-based access control, a messaging and email notification system, 
-        and an employee calendar management system. Throughout my tenure, I maintained and enhanced existing features while ensuring 
-        system stability, and actively collaborated with the team to deliver robust solutions for various internal projects.`,
+        `As a Software Engineer Intern at Colaborativa, I specialized in backend development while contributing to full-stack 
+        solutions. I took ownership of significant features in the company's internal management system, including designing 
+        and implementing a sophisticated role-based access control system, developing an integrated messaging platform with 
+        email notifications, and creating an efficient employee calendar management system. I worked extensively with Django, 
+        PostgreSQL, and Google Cloud Platform, ensuring robust and scalable solutions. My role involved maintaining system 
+        stability while implementing new features and optimizing existing functionalities.`,
       ],
       stack: [
         FaJsSquare,
