@@ -13,9 +13,9 @@ const Navbar: React.FC = () => {
         <li>
           <Link href="/experience">experience</Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/projects">projects</Link>
-        </li>
+        </li> */}
         <li>
           <Link
             href="https://www.linkedin.com/in/julio-rafael-souza/"

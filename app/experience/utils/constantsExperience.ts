@@ -7,8 +7,9 @@ import {
   SiLangchain,
   SiMongodb,
   SiGooglecloud,
-  SiMicrosoftazure,
 } from "react-icons/si";
+
+import { VscAzure } from "react-icons/vsc";
 
 export const EXP = [
   {
@@ -19,8 +20,11 @@ export const EXP = [
     date: "December 2023 → Moment",
     details: {
       text: [
-        `Experience at State Bank of Sergipe [BANESE] as a Software Engineer and AI Engineer in the Data and AI team.
-        Developing and releasing internal services with Artificial Intelligence using Generative AI language models.`,
+        `As a Software Engineer at State Bank of Sergipe, I focus on developing AI-powered solutions for the bank's internal operations. 
+        I work with full-stack development using Python (FastAPI/Django) and TypeScript (React/Next.js), specializing in implementing 
+        AI solutions through the LangChain framework. Working in an agile environment, I actively participate in Scrum ceremonies, 
+        perform code reviews, and maintain high code quality standards. My responsibilities include collaborating with team members 
+        through Git version control and resolving technical challenges across the entire stack.`,
       ],
       stack: [
         FaJsSquare,
@@ -30,7 +34,7 @@ export const EXP = [
         SiLangchain,
         SiMongodb,
         FaDocker,
-        SiMicrosoftazure,
+        VscAzure,
       ],
     },
   },
@@ -42,8 +46,11 @@ export const EXP = [
     date: "January 2023 → December 2023",
     details: {
       text: [
-        `Internship at Colaborativa, an Edtech startup, as a Developer working in the software development team
-         creating and releasing new features and maintaining the company's internal systems`,
+        `During my internship at Colaborativa, I worked as a full-stack developer with a strong focus on backend development. 
+        I played a key role in developing the company's internal management system, where I implemented several critical features 
+        including a comprehensive authorization system for role-based access control, a messaging and email notification system, 
+        and an employee calendar management system. Throughout my tenure, I maintained and enhanced existing features while ensuring 
+        system stability, and actively collaborated with the team to deliver robust solutions for various internal projects.`,
       ],
       stack: [
         FaJsSquare,
