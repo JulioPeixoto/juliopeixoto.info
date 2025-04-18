@@ -44,7 +44,7 @@ export const Proj = [
     img: "/Projects/Chatbot.png",
     name: "ChatGPT on Discord",
     position: "Side Project",
-    href: "https://github.com/JulioRaf4/chatgptondiscord2",
+    href: "https://github.com/JulioPeixoto/chatgptondiscord2",
     details: {
       describe: [
         `Project created to do a chat on Discord with OpenAI ChatGPT Models.`,

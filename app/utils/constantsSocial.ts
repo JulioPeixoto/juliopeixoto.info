@@ -17,12 +17,12 @@ export const SOCIAL = [
     {
       brand: 'hugginface',
       href: 'https://huggingface.co/JulioRafa',
-      username: 'JulioRaf4',
+      username: 'JulioPeixoto',
       icon: SiHuggingface,
     },
     {
       brand: 'github',
-      href: 'https://github.com/JulioRaf4',
+      href: 'https://github.com/JulioPeixoto',
       username: 'aripiprazole',
       icon: FiGithub,
     },
