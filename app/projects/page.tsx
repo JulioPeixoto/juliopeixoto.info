@@ -17,7 +17,7 @@ export default function Home() {
           some side projects Ive done during my spare time. If you want to see more stuff Ive done, just go to my{" "}
           <Link
             className="text-blue-700 hover:text-blue-200"
-            href="https://github.com/JulioRaf4"
+            href="https://github.com/JulioPeixoto"
             target="_blank"
           >
             github.

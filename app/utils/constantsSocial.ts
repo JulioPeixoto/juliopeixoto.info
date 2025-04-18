@@ -22,7 +22,7 @@ export const SOCIAL = [
     },
     {
       brand: 'github',
-      href: 'https://github.com/JulioRaf4',
+      href: 'https://github.com/JulioPeixoto',
       username: 'aripiprazole',
       icon: FiGithub,
     },

@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev:turbo": "set NEXT_TURBO=1 && next dev",
+    "analyze": "set ANALYZE=true && next build",
+    "clean": "if exist .next rmdir /s /q .next && if exist node_modules\\.cache rmdir /s /q node_modules\\.cache"
   },
   "dependencies": {
     "@geist-ui/react": "^2.2.5",

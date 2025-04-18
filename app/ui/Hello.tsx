@@ -1,27 +1,34 @@
 import Link from "next/link";
 import React from "react";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Hello() {
   return (
-    <section className="pb-1 mb-1">
-      <h1 className="font-semibold text-4xl mb-3">
-        Hi, im Julio Peixoto.
-        <span className="block text-slate-500 font-normal text-2xl">
-          Software and AI Engineer
+    <section className="py-1">
+      <h1 className="font-semibold text-xl mb-3">
+        Hi, Im Julio Peixoto.
+        <span className="block text-slate-500 font-normal text-base mt-1">
+          AI Software Engineer
         </span>
       </h1>
-      <p className="mb-2 pb-2">
-        I work developing and releasing robust and secure services and
-        softwares. I currently work at{" "}
+      <p className="mb-4 max-w-3xl text-base">
+        Software Engineer with over 2+ years of experience working in startups and the banking sector, 
+        currently at{" "}
         <Link
           target="_blank"
-          href="https://www.banese.com.br/"
-          className="text-blue-700 hover:text-blue-200"
+          href="https://www.ey.com/"
+          className="text-blue-700 hover:text-blue-400"
         >
-          State Bank of Sergipe
+          EY
         </Link>{" "}
-        as a software engineer creating internal services with artificial
-        intelligence in the data and AI team.
+        as an AI Software Engineer. My professional journey has led me to specialize in backend development 
+        and artificial intelligence solutions using Python, JavaScript, and TypeScript.
+      </p>
+      
+      <p className="mb-4 max-w-3xl text-base">
+        I work with frameworks and libraries such as Django, FastAPI, LangChain, and Hugging Face to 
+        create robust AI-powered applications. Im also an open-source contributor and volunteer 
+        researcher at Tiradentes University.
       </p>
     </section>
   );
