@@ -6,7 +6,7 @@ export default function Hello() {
   return (
     <section className="py-1">
       <h1 className="font-semibold text-xl mb-3">
-        Hi, I'm Julio Peixoto.
+        Hi, Im Julio Peixoto.
         <span className="block text-slate-500 font-normal text-base mt-1">
           AI Software Engineer
         </span>
@@ -27,7 +27,7 @@ export default function Hello() {
       
       <p className="mb-4 max-w-3xl text-base">
         I work with frameworks and libraries such as Django, FastAPI, LangChain, and Hugging Face to 
-        create robust AI-powered applications. I'm also an open-source contributor and volunteer 
+        create robust AI-powered applications. Im also an open-source contributor and volunteer 
         researcher at Tiradentes University.
       </p>
     </section>
