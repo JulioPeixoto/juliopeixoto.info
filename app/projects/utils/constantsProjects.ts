@@ -13,8 +13,6 @@ import {
 
 import {
   SiMongodb,
-  SiGooglecloud,
-  SiMicrosoftazure,
   SiTypescript,
   SiMysql,
   SiOpenai,
@@ -32,7 +30,7 @@ export const Proj = [
       describe: [
         `Developed with Typescript, NextJS, ReactJS and deployed on Azure`,
       ],
-      stack: [SiTypescript, RiNextjsFill, FaReact, SiMicrosoftazure],
+      stack: [SiTypescript, RiNextjsFill, FaReact],
     },
   },
   {
