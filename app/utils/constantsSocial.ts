@@ -17,7 +17,7 @@ export const SOCIAL = [
     {
       brand: 'hugginface',
       href: 'https://huggingface.co/JulioRafa',
-      username: 'JulioPeixoto',
+      username: 'JulioRaf4',
       icon: SiHuggingface,
     },
     {
