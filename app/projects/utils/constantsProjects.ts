@@ -34,7 +34,7 @@ export const Proj = [
     details: {
       describe: [
         `Project developed from a scientific article where the focus is to develop 
-        a Rag system for psychologists to apply in the area of mental health.
+        a Agent system for psychologists to apply in the area of mental health.
         Developed with Typescript, NextJS, ReactJS, Pinecone and Postgres. Deployed on Vercel.`,
       ],
       stack: [SiTypescript, RiNextjsFill, FaReact, BiLogoPostgresql, SiVercel],
