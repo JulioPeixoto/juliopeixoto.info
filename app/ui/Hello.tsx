@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Hello() {
   return (

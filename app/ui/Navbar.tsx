@@ -10,9 +10,9 @@ const Navbar: React.FC = () => {
         <li>
           <Link href="/">home</Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/projects">projects</Link>
-        </li>
+        </li> */}
         {/* <li>
           <Link href="/projects">projects</Link>
         </li> */}

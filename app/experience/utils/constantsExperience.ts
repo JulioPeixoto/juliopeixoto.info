@@ -11,6 +11,7 @@ import {
 } from "react-icons/si";
 
 import { VscAzure } from "react-icons/vsc";
+import { PiOpenAiLogo } from "react-icons/pi";
 
 export const EXP = [
   {
@@ -29,14 +30,14 @@ export const EXP = [
         address complex business challenges while maintaining high standards of code quality and documentation.`,
       ],
       stack: [
-        FaPython,
-        FaJsSquare,
-        DiDjango,
-        SiFastapi,
-        SiLangchain,
-        SiHuggingface,
-        SiMongodb,
-        FaDocker,
+        { name: "Python", icon: FaPython },
+        { name: "FastAPI", icon: SiFastapi },
+        { name: "LangChain", icon: SiLangchain },
+        { name: "OpenAI", icon: PiOpenAiLogo },
+        { name: "Hugging Face", icon: SiHuggingface },
+        { name: "PostgreSQL", icon: DiPostgresql },
+        { name: "Docker", icon: FaDocker },
+        { name: "Azure", icon: VscAzure }
       ],
     },
   },
@@ -57,14 +58,14 @@ export const EXP = [
         and Azure cloud services.`,
       ],
       stack: [
-        FaJsSquare,
-        FaPython,
-        DiDjango,
-        SiFastapi,
-        SiLangchain,
-        SiMongodb,
-        FaDocker,
-        VscAzure,
+        { name: "JavaScript", icon: FaJsSquare },
+        { name: "Python", icon: FaPython },
+        { name: "Django", icon: DiDjango },
+        { name: "FastAPI", icon: SiFastapi },
+        { name: "LangChain", icon: SiLangchain },
+        { name: "MongoDB", icon: SiMongodb },
+        { name: "Docker", icon: FaDocker },
+        { name: "Azure", icon: VscAzure }
       ],
     },
   },
@@ -84,12 +85,12 @@ export const EXP = [
         stability while implementing new features and optimizing existing functionalities.`,
       ],
       stack: [
-        FaJsSquare,
-        FaPython,
-        DiDjango,
-        DiPostgresql,
-        FaDocker,
-        SiGooglecloud,
+        { name: "JavaScript", icon: FaJsSquare },
+        { name: "Python", icon: FaPython },
+        { name: "Django", icon: DiDjango },
+        { name: "PostgreSQL", icon: DiPostgresql },
+        { name: "Docker", icon: FaDocker },
+        { name: "Google Cloud", icon: SiGooglecloud }
       ],
     },
   },

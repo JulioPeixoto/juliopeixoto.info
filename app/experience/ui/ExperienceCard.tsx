@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { cardVariantsExperience } from "@/app/utils/framerMotionConfig"; 
-import styles from "../styles/Experience.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { FaChevronDown } from "react-icons/fa"; 
@@ -17,7 +16,7 @@ export const ExperienceCard = React.memo(({
   hoveredIndex: number | null;
   setHoveredIndex: (index: number | null) => void;
 }) => {
-  const isOpen = hoveredIndex === index; 
+  const isOpen = hoveredIndex === index;
 
   const toggleCard = () => {
     if (isOpen) {
@@ -55,7 +54,7 @@ export const ExperienceCard = React.memo(({
               {item.name}
             </Link>
             <span className="text-slate-500">{item.position}</span>
-            <span className={styles.date}>{item.date}</span>
+            <span className="font-mono text-sm font-medium mt-4 block text-slate-500">{item.date}</span>
           </div>
         </div>
 
@@ -82,14 +81,18 @@ export const ExperienceCard = React.memo(({
           ))}
         </div>
 
-        <div className={styles["stack-icons"]}>
+        <div className="flex flex-wrap gap-4 mt-4 justify-center">
           {item.details.stack.map(
-            (IconComponent: React.ElementType, idx: number) => (
-              <IconComponent
-                key={idx}
-                size={30}
-                className="theme--light transition-colors duration-200"
-              />
+            (tech: { name: string; icon: React.ElementType }, idx: number) => (
+              <div key={idx} className="relative cursor-pointer group">
+                <tech.icon
+                  size={30}
+                  className="theme--light transition-colors duration-200"
+                />
+                <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 px-2 py-1 rounded text-xs whitespace-nowrap z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+                  {tech.name}
+                </span>
+              </div>
             )
           )}
         </div>

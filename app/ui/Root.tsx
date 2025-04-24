@@ -7,7 +7,7 @@ type Props = {
 };
 
 function Root(props: Props) {
-  const { isMobile, children } = props;
+  const { children } = props;
 
   return (
     <div className={styles.container}>
